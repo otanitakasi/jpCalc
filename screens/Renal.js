@@ -225,7 +225,7 @@ class Renal extends React.Component {
         </Text>
 
         {/* スイッチ：性別、腎機能指標 */}
-        <View style={{ flex: 0.3, flexDirection: 'row', marginTop: 8, alignItems: 'center'}}>
+        <View style={{ flex: 0.4, flexDirection: 'row', marginTop: 8, alignItems: 'center'}}>
           <Switch
             onValueChange={(value) => this.setSex(value)}
             value={this.state.sex}
